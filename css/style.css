@@ -1,0 +1,359 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body
+{
+    font-family: 'Roboto', sans-serif !important;
+    overflow-x: hidden;
+    margin-bottom: 0 auto;
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p, h1 ,h2 ,h3, h4, h5, h6 {
+    margin: 0 !important;
+}
+
+.all-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.top-bar 
+{
+    background-color: white;
+    padding: 15px 0;
+}
+.top-bar .logo
+{
+    
+}
+.top-bar .logo img
+{
+    width: 70%;
+    height: 50px;
+}
+.top-bar .nav
+{
+    float: right;
+}
+
+.top-bar .nav ul
+{
+    list-style: none;
+    display: flex;
+    padding-top: 7px;
+    margin-bottom: 0;
+}
+.top-bar .nav li a
+{
+    font-size: 19px;
+    padding: 0px 10px;
+    color: black;
+    font-weight: 500;
+}
+.top-bar .nav a:hover
+{
+    color: #ff768f;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+.top-bar .btn
+{
+    
+}
+
+.top-bar .btn a
+{
+    color: white;
+    font-size: 14px;
+    border: 1px solid dodgerblue;
+    background-color: dodgerblue;
+    border-radius: 4px;
+    padding: 12px 17px 12px 17px;
+    box-shadow: 1px 2px 4px grey;
+}
+
+.top-bar .btn a:hover
+{
+    background-color: #2588e8;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
+
+/* dropdown buttn */
+
+.dropdown 
+{
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a 
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.parent li>a:hover  .dropdown-content {display: block;}
+
+.sidenav 
+{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -100%;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+      
+.sidenav a 
+{
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+}
+    
+.sidenav a:hover 
+{
+    color: #ff768f;
+}
+      
+.sidenav .closebtn 
+{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+      
+@media screen and (max-height: 450px) 
+{
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.mobile-nav
+{
+    display: none;
+}  
+
+    
+.openbtn, .closebtn
+{
+    cursor: pointer;
+    font-size: 35px;
+}
+    
+.openbtn
+{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    z-index: 1;
+    display: none;
+}
+
+.top-bar .button
+{
+    margin-top: 5%;
+}
+
+.top-bar .button a
+{
+    color: white;
+    font-size: 14px;
+    border: 1px solid dodgerblue;
+    background-color: dodgerblue;
+    border-radius: 4px;
+    padding: 10px 15px 10px 15px;
+    box-shadow: 1px 2px 4px grey;
+    width: 35%;
+    display: block;
+    margin: auto;
+}
+
+.top-bar .button a:hover
+{
+    background-color: #266aad;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
+.top-bar .button1
+{
+    margin-top: 20%;
+}
+
+.top-bar .button1 a
+{
+    color: dodgerblue;
+    font-size: 15px;
+    border: 1px solid dodgerblue;
+    background-color: white;
+    border-radius: 4px;
+    padding: 12px 12px 12px 12px;
+    box-shadow: 1px 2px 4px grey;
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+.top-bar .button1 a:hover
+{
+    background-color: dodgerblue;
+    color: white;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1920px)
+{
+
+}
+
+@media screen and (max-width: 1366px)
+{
+    
+}
+
+@media screen and (max-width: 768px)
+{
+    .openbtn
+    {
+        display: block;
+    }
+
+    .mobile-nav
+    {
+        display: block;
+    }
+
+    .top-bar .logo img
+    {
+        width: 150%;
+    }
+
+    .top-bar .nav
+    {
+        display: none;
+    }
+
+    .top-bar .btn
+    {
+        display: none;
+    }
+   
+}
+
+@media screen and (max-width: 600px)
+{
+    /* .openbtn
+    {
+        display: block;
+    }
+
+    .mobile-nav
+    {
+        display: block;
+    } */
+
+    .top-bar .logo img
+    {
+        width: 60%;
+    }
+
+   
+}
+
+@media screen and (max-width: 425px)
+{
+    
+}
+
+@media screen and (max-width: 375px)
+{
+    
+}

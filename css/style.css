@@ -28,6 +28,9 @@ a{
 {
     background-color: white;
     padding: 15px 0;
+    /* position: fixed;
+    width: 100%;
+    z-index: 2; */
 }
 .top-bar .logo
 {
@@ -235,6 +238,46 @@ a{
     transition: 0.5s;
 }
 
+.slider
+{
+    width: 100%;
+    height: 87vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 15% 0;
+}
+
+.slider h1
+{
+    color: white;
+    font-size: 50px;
+}
+
+.slider .btn1
+{
+    margin-top: 10%;
+}
+
+.slider .btn1 a
+{
+    color: white;
+    font-size: 18px;
+    border: 1px solid #ff768f;
+    background-color: #ff768f;
+    border-radius: 4px;
+    padding: 13px 30px 13px 30px;
+    box-shadow: 2px 3px 3px grey;
+}
+
+.slider .btn1 a:hover
+{
+    background-color: #fc5d7a;
+    color: white;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
 
 
 
@@ -325,6 +368,20 @@ a{
     {
         display: none;
     }
+
+    .slider
+    {
+        height: 90vh;
+        background-position: left;
+        padding-top: 45%;
+        background-blend-mode: soft-light;
+        background-color: #a7a7a76e;
+    }
+
+    .slider h1
+    {
+        font-size: 25px;
+    }
    
 }
 
@@ -343,6 +400,28 @@ a{
     .top-bar .logo img
     {
         width: 60%;
+    }
+
+    .slider
+    {
+        width: 100%;
+        height: 90vh;
+        background-position: left;
+        background-blend-mode: soft-light;
+        background-color: #a7a7a76e;
+        padding-top: 75%;
+    }
+
+    .slider h1
+    {
+        font-size: 30px;
+    }
+
+    .slider .btn1 a
+    {
+        font-size: 15px;
+        padding: 13px 30px 13px 30px;
+        box-shadow: 3px 2px 4px grey;
     }
 
    

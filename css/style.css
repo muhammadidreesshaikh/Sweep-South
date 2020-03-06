@@ -28,9 +28,9 @@ a{
 {
     background-color: white;
     padding: 15px 0;
-    /* position: fixed;
+    position: fixed;
     width: 100%;
-    z-index: 2; */
+    z-index: 2;
 }
 .top-bar .logo
 {
@@ -279,6 +279,48 @@ a{
     transition: 0.5s;
 }
 
+.rating
+{
+    background-color: white;
+    padding: 5% 0;
+}
+
+.rating .main
+{
+
+}
+
+.rating .main p
+{  
+    color: black;
+    font-size: 17px;
+}
+
+.rating .main p span
+{
+    color: #fc5d7a;
+}
+
+.rating .main .star
+{
+    
+}
+
+.rating .main .star a 
+{
+    font-size: 13px;
+    color: dodgerblue;
+    border: 2px solid dodgerblue;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 0 5px;
+}
+
+
+
+
+
+
 
 
 
@@ -382,6 +424,39 @@ a{
     {
         font-size: 25px;
     }
+
+    .rating
+    {
+        padding: 7% 0;
+    }
+
+    .rating .main
+    {
+        text-align: center;
+    }
+
+    .rating .main p
+    {
+        font-size: 17px;
+    }
+
+    .rating .main .star
+    {
+        padding: 8% 0;
+    }
+
+    .rating .main .star a
+    {
+        font-size: 15px;
+        padding: 7px;
+        margin: 0 3px;
+    }
+
+    .d-flex
+    {
+        display: block !important;
+    }
+
    
 }
 
@@ -424,6 +499,16 @@ a{
         box-shadow: 3px 2px 4px grey;
     }
 
+    .rating
+    {
+        padding: 10% 0;
+    }
+
+    .rating .main .star
+    {
+        padding: 10% 0;
+    }
+  
    
 }
 
@@ -436,3 +521,119 @@ a{
 {
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .service
+{
+    position: relative;
+    padding: 2%;
+    background-color: white;
+}
+
+.service h3
+{
+    font-size: 30px;
+}
+
+.service h3:before
+{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 27%;
+    height: 2px;
+    background-color: #d4d4d4;
+
+}
+
+.service h3:after
+{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    width: 27%;
+    height: 2px;
+    background-color: #d4d4d4;
+}
+
+.services 
+{
+    background-color: white;
+    text-align: center;
+    padding: 5%;
+}
+
+.services .wrapper
+{
+    background-color: white;
+    box-shadow: 1px 1px 4px grey;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.services .wrapper img
+{
+    width: 100%;
+    height: auto;
+}
+
+.services .wrapper:hover img
+{
+    opacity: 0.5;
+    transition: 0.5s ease;
+    color: #2588e8;
+}
+
+.services .wrapper h6
+{
+    padding: 5% 0;
+    font-size: 15px;
+} */

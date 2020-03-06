@@ -32,15 +32,13 @@ a{
     width: 100%;
     z-index: 2;
 }
-.top-bar .logo
-{
-    
-}
+
 .top-bar .logo img
 {
     width: 70%;
     height: 50px;
 }
+
 .top-bar .nav
 {
     float: right;
@@ -53,6 +51,7 @@ a{
     padding-top: 7px;
     margin-bottom: 0;
 }
+
 .top-bar .nav li a
 {
     font-size: 19px;
@@ -60,15 +59,12 @@ a{
     color: black;
     font-weight: 500;
 }
+
 .top-bar .nav a:hover
 {
     color: #ff768f;
     opacity: 0.5s;
     transition: 0.5s;
-}
-.top-bar .btn
-{
-    
 }
 
 .top-bar .btn a
@@ -285,11 +281,6 @@ a{
     padding: 5% 0;
 }
 
-.rating .main
-{
-
-}
-
 .rating .main p
 {  
     color: black;
@@ -301,11 +292,6 @@ a{
     color: #fc5d7a;
 }
 
-.rating .main .star
-{
-    
-}
-
 .rating .main .star a 
 {
     font-size: 13px;
@@ -314,6 +300,40 @@ a{
     border-radius: 50%;
     padding: 8px;
     margin: 0 5px;
+}
+
+.service
+{
+    position: relative;
+    padding: 2%;
+    background-color: white;
+}
+
+.service h3
+{
+    font-size: 30px;
+}
+
+.service h3:before
+{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 27%;
+    height: 2px;
+    background-color: #d4d4d4;
+}
+
+.service h3:after
+{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    width: 27%;
+    height: 2px;
+    background-color: #d4d4d4;
 }
 
 
@@ -569,42 +589,8 @@ a{
 
 
 
-/* .service
-{
-    position: relative;
-    padding: 2%;
-    background-color: white;
-}
 
-.service h3
-{
-    font-size: 30px;
-}
-
-.service h3:before
-{
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 10%;
-    width: 27%;
-    height: 2px;
-    background-color: #d4d4d4;
-
-}
-
-.service h3:after
-{
-    content: "";
-    position: absolute;
-    top: 50%;
-    right: 10%;
-    width: 27%;
-    height: 2px;
-    background-color: #d4d4d4;
-}
-
-.services 
+/* .services 
 {
     background-color: white;
     text-align: center;

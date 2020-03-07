@@ -3,7 +3,7 @@
 body
 {
     font-family: 'Roboto', sans-serif !important;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     margin-bottom: 0 auto;
     background: #f2f2f2;
     font-family: 'Open Sans', sans-serif;
@@ -372,6 +372,73 @@ a{
     font-size: 15px;
 }
 
+.work
+{
+    padding: 5% 0 0 0;
+    background-color: white;
+}
+
+.work .option 
+{
+    display: inline-flex;
+}
+
+.work h5
+{
+    font-size: 30px;
+}
+
+.work .option ul
+{
+    margin-top: 7%;
+}
+
+.work .option ul li
+{
+    padding: 3% 0;
+}
+
+.work .option li span.dot
+{
+    border: 2px solid #0854ff;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 7px;
+}
+
+.work .option li span
+{
+    color: gray;
+    font-size: 17px;
+}
+
+.work .option p
+{
+    padding-top: 10%;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.work .option p span
+{
+    color: rgb(247, 121, 148);
+}
+
+.work .mob
+{
+    
+}
+.work .mob img
+{
+    width: 250px;
+}
+
 
 
 
@@ -533,6 +600,38 @@ a{
         margin: 5% 0;
     }
 
+    .work
+    {
+        padding: 10% 0 0 0;
+        text-align: center;
+    }
+
+    .work .option
+    {
+        display: inline-block;
+    }
+
+    .work .option ul
+    {
+        text-align: left;
+    }
+
+    .work .option h5
+    {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .work .mob
+    {
+        margin-top: 15%;
+    }
+
+    .work .mob img
+    {
+        display: block;
+        margin: auto;
+    }
    
 }
 
@@ -607,8 +706,22 @@ a{
         margin: 3% 0px 3% 10%;
     }
 
+    .work
+    {
+        padding-top: 8%;
+    }
 
-  
+    .work .option h5
+    {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .work .option ul
+    {
+        text-align: left;
+    }
+
    
 }
 

@@ -305,13 +305,15 @@ a{
 .service
 {
     position: relative;
-    padding: 2%;
+    padding: 2% 0;
     background-color: white;
 }
 
 .service h3
 {
     font-size: 30px;
+    display: block;
+    margin: auto !important;
 }
 
 .service h3:before
@@ -334,6 +336,40 @@ a{
     width: 27%;
     height: 2px;
     background-color: #d4d4d4;
+}
+
+.services 
+{
+    background-color: white;
+    text-align: center;
+    padding: 5% 0;
+}
+
+.services .wrapper
+{
+    background-color: white;
+    box-shadow: 1px 1px 4px grey;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.services .wrapper img
+{
+    width: 100%;
+    height: 170px;
+}
+
+.services .wrapper:hover img
+{
+    opacity: 0.5;
+    transition: 0.5s ease;
+    color: #2588e8;
+}
+
+.services .wrapper h6
+{
+    padding: 5% 0;
+    font-size: 15px;
 }
 
 
@@ -477,6 +513,26 @@ a{
         display: block !important;
     }
 
+    .service h3
+    {
+        font-size: 30px;
+    }
+
+    .service h3:before
+    {
+        width: 17%;
+    }
+
+    .service h3:after
+    {
+        width: 17%;
+    }
+
+    .services .wrapper
+    {
+        margin: 5% 0;
+    }
+
    
 }
 
@@ -528,6 +584,30 @@ a{
     {
         padding: 10% 0;
     }
+
+    .service h3
+    {
+        font-size: 30px;
+    }
+
+    .service h3:before
+    {
+        display: none;
+    }
+
+    .service h3:after
+    {
+        display: none;
+    }
+
+    .services .wrapper
+    {
+        width: 80%;
+        display: block;
+        margin: 3% 0px 3% 10%;
+    }
+
+
   
    
 }
@@ -590,36 +670,3 @@ a{
 
 
 
-/* .services 
-{
-    background-color: white;
-    text-align: center;
-    padding: 5%;
-}
-
-.services .wrapper
-{
-    background-color: white;
-    box-shadow: 1px 1px 4px grey;
-    overflow: hidden;
-    cursor: pointer;
-}
-
-.services .wrapper img
-{
-    width: 100%;
-    height: auto;
-}
-
-.services .wrapper:hover img
-{
-    opacity: 0.5;
-    transition: 0.5s ease;
-    color: #2588e8;
-}
-
-.services .wrapper h6
-{
-    padding: 5% 0;
-    font-size: 15px;
-} */

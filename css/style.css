@@ -430,14 +430,42 @@ a{
     color: rgb(247, 121, 148);
 }
 
-.work .mob
-{
-    
-}
 .work .mob img
 {
     width: 250px;
 }
+
+.download
+{
+    background-color: rgb(247, 121, 148);
+    padding: 5% 0;
+    text-align: center;
+}
+
+.download .msg h6
+{
+    font-weight: 300;
+    padding: 0 20%;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.download .images
+{
+    padding-top: 20px;
+}
+
+.download .images a
+{
+    padding: 0 5px;
+}
+
+.download .images a img
+{
+    width: 10%;
+    height: 35px;
+}
+
 
 
 
@@ -632,6 +660,18 @@ a{
         display: block;
         margin: auto;
     }
+
+    .download .msg h6
+    {
+        font-size: 22px;
+        padding: 0;
+    }
+
+    .download .images a img
+    {
+        width: 17%;
+        height: 35px;
+    }
    
 }
 
@@ -720,6 +760,17 @@ a{
     .work .option ul
     {
         text-align: left;
+    }
+
+    .download
+    {
+        padding: 10% 0;
+    }
+
+    .download .images a img
+    {
+        width: 25%;
+        height: 35px;
     }
 
    

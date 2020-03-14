@@ -784,6 +784,52 @@ a{
         width: 17%;
         height: 35px;
     }
+
+    .meet
+    {
+        padding: 10% 0;
+    }
+
+    .meet h3
+    {
+        font-size: 33px;
+    }
+
+    .meet h3:before
+    {
+        left: 5%;
+        width: 10%;
+    }
+
+    .meet h3:after
+    {
+        right: 5%;
+        width: 10%;
+    }
+
+    .meet p
+    {
+        padding-top: 5%;
+        font-size: 16px;
+    }
+
+    .meet .wrapper1
+    {
+        padding: 30% 0 15% 0;
+    }
+
+    .meet .wrapper1 .image1 img
+    {
+        width: 115px;
+        height: 115px;
+        top: -30%;
+        left: 23%;
+    }
+
+    .meet .wrapper1 p
+    {
+        font-size: 14px;
+    }
    
 }
 
@@ -883,6 +929,45 @@ a{
     {
         width: 25%;
         height: 35px;
+    }
+
+    .meet
+    {
+        padding: 20% 0;
+    }
+
+    .meet h3
+    {
+        font-size: 30px;
+    }
+
+    .meet h3:before
+    {
+        display: none;
+    }
+
+    .meet h3:after
+    {
+        display: none;
+    }
+
+    .meet p
+    {
+        font-size: 14px;
+        padding-top: 10%;
+    }
+
+    .meet .profile
+    {
+        padding-top: 5%;
+    }
+
+    .meet .wrapper1
+    {
+        width: 80%;
+        /* display: block; */
+        /* margin: auto; */
+        margin: 30% 0 0px 10%;
     }
 
    

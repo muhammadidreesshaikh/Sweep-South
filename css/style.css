@@ -249,11 +249,12 @@ a{
 {
     color: white;
     font-size: 50px;
+    padding: 0 25%;
 }
 
 .slider .btn1
 {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .slider .btn1 a
@@ -466,6 +467,117 @@ a{
     height: 35px;
 }
 
+.meet
+{
+    background-color: white;
+    text-align: center;
+    padding: 5% 0;
+}
+
+.meet h3
+{
+    font-size: 30px;
+    color: black;
+}
+
+.meet h3:before
+{
+    content: "";
+    position: absolute;
+    top: 13%;
+    left: -3%;
+    width: 32%;
+    height: 2px;
+    background-color: #d4d4d4;
+}
+
+.meet h3:after
+{
+    content: "";
+    position: absolute;
+    top: 13%;
+    right: -3%;
+    width: 32%;
+    height: 2px;
+    background-color: #d4d4d4;
+}
+
+.meet p
+{
+    font-size: 17px;
+    padding: 5% 10% 0px 10%;
+    color: #b7b7b7;
+}
+
+.meet .profile
+{
+    padding-top: 15%;
+}
+
+.meet .wrapper1
+{
+    border: 1px solid gainsboro;
+    position: relative;
+    padding: 25% 0 15% 0;
+    box-shadow: 0px 0px 2px grey;
+    height: 280px;
+}
+
+.meet .wrapper1 .image1
+{
+    
+}
+
+.meet .wrapper1 .image1 img
+{
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    top: -30%;
+    left: 30%;
+}
+
+.meet .wrapper1 h6
+{
+    font-size: 18px;
+}
+
+.meet .wrapper1 i
+{
+    color: #2196F3;
+    border: 2px solid;
+    font-size: 15px;
+    padding: 3px;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-right: 5px;
+}
+
+.meet .wrapper1 span
+{
+    color: #7d7d7d;
+    font-size: 16px;
+}
+
+.meet .wrapper1 .seprator
+{
+    width: 80%;
+    height: 2px;
+    background-color: #dadada;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.meet .wrapper1 p
+{
+    font-size: 15px;
+    padding: 5% 10% 0px 10%;
+    color: #7d7d7d;
+    font-style: italic;
+}
+
 
 
 
@@ -566,7 +678,7 @@ a{
     {
         height: 90vh;
         background-position: left;
-        padding-top: 45%;
+        padding-top: 40%;
         background-blend-mode: soft-light;
         background-color: #a7a7a76e;
     }

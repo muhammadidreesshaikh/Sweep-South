@@ -237,19 +237,19 @@ a{
 .slider
 {
     width: 100%;
-    height: 87vh;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    padding: 15% 0;
+    padding: 25% 25% 0px 25%;
 }
 
 .slider h1
 {
     color: white;
     font-size: 50px;
-    padding: 0 25%;
+    /* padding: 0 25%; */
 }
 
 .slider .btn1
@@ -523,11 +523,6 @@ a{
     height: 280px;
 }
 
-.meet .wrapper1 .image1
-{
-    
-}
-
 .meet .wrapper1 .image1 img
 {
     border-radius: 50%;
@@ -577,6 +572,104 @@ a{
     color: #7d7d7d;
     font-style: italic;
 }
+
+.reliable
+{
+    padding: 5% 0;
+    background-color: white;
+}
+
+.reliable h1
+{
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+
+.reliable h1:before
+{
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: -3%;
+    width: 25%;
+    height: 2px;
+    background-color: #d4d4d4;
+}
+
+.reliable h1:after
+{
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: -3%;
+    width: 25%;
+    height: 2px;
+    background-color: #d4d4d4;
+}
+
+.reliable .main2
+{
+    padding-top: 5%;
+}
+
+.reliable .main2 i
+{ 
+    float: right;
+    color: rgb(247, 121, 148);
+    font-size: 18px;
+    border: 2px solid;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.reliable .main2 h6
+{
+    font-size: 21px;
+    color: black;
+}
+
+.reliable .main2 p
+{
+    color: #b3b3b3;
+    font-size: 16px;
+    padding-top: 8px;
+}
+
+.reliable .promise
+{
+    border: 3px solid #f77994;
+    padding: 20px 20px;
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.reliable .promise i
+{
+    color: #f77994;
+    font-size: 25px;
+    border: 4px solid;
+    border-radius: 50%;
+    padding: 10px;
+    float: unset;
+}
+
+.reliable .promise h6 
+{
+    font-size: 21px;
+}
+
+.reliable .promise p
+{
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+
+
+
 
 
 
@@ -813,9 +906,19 @@ a{
         font-size: 16px;
     }
 
+    .meet .profile
+    {
+        padding-top: 10%;
+    }
+
     .meet .wrapper1
     {
-        padding: 30% 0 15% 0;
+        padding: 8% 0 0% 0;
+        width: 280px;
+        height: 280px;
+        display: block;
+        margin: auto;
+        margin-top: 15%;
     }
 
     .meet .wrapper1 .image1 img
@@ -823,12 +926,36 @@ a{
         width: 115px;
         height: 115px;
         top: -30%;
-        left: 23%;
+        left: 30%;
     }
 
     .meet .wrapper1 p
     {
         font-size: 14px;
+    }
+
+    .reliable h1
+    {
+        font-size: 32px;
+    }
+
+    .reliable h1:before
+    {
+        top: 50%;
+        left: 2%;
+        width: 7%;
+    }
+
+    .reliable h1:after
+    {
+        top: 50%;
+        right: 2%;
+        width: 7%;
+    }
+
+    .reliable .main2 p
+    {
+        font-size: 15px;
     }
    
 }
@@ -857,12 +984,13 @@ a{
         background-position: left;
         background-blend-mode: soft-light;
         background-color: #a7a7a76e;
-        padding-top: 75%;
+        padding-top: 60%;
     }
 
     .slider h1
     {
-        font-size: 30px;
+        font-size: 28px;
+        padding: 0 15%;
     }
 
     .slider .btn1 a
@@ -951,6 +1079,14 @@ a{
         display: none;
     }
 
+    .meet .wrapper1 .image1 img 
+    {
+        width: 115px;
+        height: 115px;
+        top: -30%;
+        left: 35%;
+    }
+
     .meet p
     {
         font-size: 14px;
@@ -968,6 +1104,38 @@ a{
         /* display: block; */
         /* margin: auto; */
         margin: 30% 0 0px 10%;
+    }
+
+    .reliable h1 
+    {
+        font-size: 33px;
+    }
+
+    .reliable h1:before
+    {
+        display: none;
+    }
+
+    .reliable h1:after
+    {
+        display: none;
+    }
+
+    .reliable .main2 i
+    {
+        float: left;
+        font-size: 16px;
+        padding: 6px;
+    }
+
+    .reliable .main2 h6
+    {
+        font-size: 20px;
+    }
+
+    .reliable .main2 p
+    {
+        font-size: 14px;
     }
 
    

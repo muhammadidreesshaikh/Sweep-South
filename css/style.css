@@ -667,6 +667,50 @@ a{
     padding-top: 10px;
 }
 
+.pricing
+{
+    text-align: center;
+    padding: 3% 0;
+    background-color: #42a2ff;
+}
+
+.pricing h1
+{
+    font-size: 40px;
+    color: white;
+}
+
+.pricing p
+{
+    padding: 3% 22% 0px 22%;
+    color: white;
+    font-size: 18px;
+}
+
+.pricing .btn2
+{
+    padding-top: 5%;
+}
+
+.pricing .btn2 a
+{
+    color: white;
+    font-size: 19px;
+    border: 1px solid #ff768f;
+    background-color: #ff768f;
+    border-radius: 4px;
+    padding: 10px 35px 10px 35px;
+    box-shadow: 2px 3px 3px grey;
+}
+
+.pricing .btn2 a:hover
+{
+    background-color: #fc5d7a;
+    color: white;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
 
 
 
@@ -957,6 +1001,12 @@ a{
     {
         font-size: 15px;
     }
+
+    .pricing p
+    {
+        padding: 5% 10% 0px 10%;
+        font-size: 18px;
+    }
    
 }
 
@@ -1136,6 +1186,27 @@ a{
     .reliable .main2 p
     {
         font-size: 14px;
+    }
+
+    .pricing
+    {
+        padding: 4% 0;
+    }
+
+    .pricing h1
+    {
+        font-size: 38px;
+    }
+
+    .pricing p
+    {
+        padding: 4% 10% 0px 10%;
+        font-size: 16px;
+    }
+
+    .pricing .btn2
+    {
+        padding-top: 8%;
     }
 
    

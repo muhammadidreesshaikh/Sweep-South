@@ -843,6 +843,36 @@ a{
     transition: 0.5s;
 }
 
+.sweep
+{
+    background-color: rgb(78, 162, 255);
+    padding: 2% 0;
+}
+
+.sweep img
+{
+    width: 40%;
+    height: 45px;
+}
+
+.sweep .icon
+{
+    float: right;
+}
+
+.sweep .icon i
+{
+    color: white;
+    border: 3px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 20px;
+    height: 36px;
+    width: 36px;
+    text-align: center;
+    margin-right: 5px;
+}
+
 
 
 
@@ -1184,6 +1214,12 @@ a{
     {
         display: none;
     }
+
+    .sweep img
+    {
+        width: 50%;
+        height: 45px;
+    }
    
 }
 
@@ -1419,6 +1455,24 @@ a{
         display: block;
         margin: auto;
         padding-top: 10%;
+    }
+
+    .sweep
+    {
+        padding: 4% 0;
+        text-align: center;
+    }
+
+    .sweep img
+    {
+        width: 50%;
+        height: 40px;
+    }
+
+    .sweep .icon
+    {
+        padding-top: 7%;
+        float: unset;
     }
 
    

@@ -759,6 +759,90 @@ a{
     height: 300px;
 }
 
+.featured
+{
+    padding: 5% 0;
+    background-color: white;
+    text-align: center;
+}
+
+.featured h1
+{
+    font-size: 40px;
+    color: black;
+}
+
+.featured h1:before
+{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -5%;
+    width: 40%;
+    height: 2px;
+    background-color: #d4d4d4;
+}
+
+.featured h1::after
+{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -5%;
+    width: 40%;
+    height: 2px;
+    background-color: #d4d4d4;
+}
+
+.featured .deling
+{
+    padding-top: 5%;
+}
+
+.featured .digital-carousel
+{
+    
+}
+
+.featured .deling img
+{
+    width: 70%;
+    height: 50px;
+}
+
+.featured .text
+{
+    padding-top: 5%;
+}
+
+.featured .text p
+{
+    font-size: 15px;
+    padding: 0 5%;
+    color: #bbbbbb;
+} 
+
+.featured .text .btn4
+{
+    margin-top: 5%;
+}
+
+.featured .text button
+{
+    border: 1px solid white;
+    background-color: white;
+    color: #178bfd;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.featured .text button:hover
+{
+    color: #ff768f;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
 
 
 
@@ -1082,6 +1166,24 @@ a{
     {
         min-height: 80vh;
     }
+
+    .featured h1:before
+    {
+        left: 4%;
+        width: 25%;
+    }
+
+    .featured h1:after
+    {
+        right: 4%;
+        width: 25%;
+    }
+
+
+    .slick-dots li button:before
+    {
+        display: none;
+    }
    
 }
 
@@ -1293,6 +1395,30 @@ a{
     .find .image2 img 
     {
         min-height: 300px;
+    }
+
+    .featured h1
+    {
+        font-size: 35px;
+    }
+
+    .featured h1:before
+    {
+        left: 5%;
+        width: 11%;
+    }
+
+    .featured h1:after
+    {
+        right: 5%;
+        width: 11%;
+    }
+
+    .featured .digital-carousel
+    {
+        display: block;
+        margin: auto;
+        padding-top: 10%;
     }
 
    

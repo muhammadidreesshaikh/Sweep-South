@@ -711,6 +711,54 @@ a{
     transition: 0.5s;
 }
 
+.find
+{
+    background-color: white;
+    padding: 6% 0;
+}
+
+.find .info h4
+{
+    color: black;
+    font-size: 32px;
+}
+
+.find .info p
+{
+    color: #b5b5b5;
+    font-size: 17px;
+    padding-top: 5%;
+}
+
+.find .info .btn3 
+{
+    margin-top: 10%;
+}
+
+.find .info .btn3 a
+{
+    color: white;
+    font-size: 15px;
+    border: 1px solid dodgerblue;
+    background-color: dodgerblue;
+    border-radius: 4px;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 1px 2px 4px grey;
+}
+
+.find .info .btn3 a:hover
+{
+    background-color: rgb(87, 171, 255);
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
+.find .image2 img
+{
+    width: 100%;
+    height: 300px;
+}
+
 
 
 
@@ -1007,6 +1055,33 @@ a{
         padding: 5% 10% 0px 10%;
         font-size: 18px;
     }
+
+    .find
+    {
+        padding: 10% 0;
+        text-align: center;
+    }
+
+    .find .info h4
+    {
+        font-size: 30px;
+    }
+
+    .find .info p
+    {
+        padding: 5% 10% 0 10%;
+        font-size: 16px;
+    }
+
+    .find .image2
+    {
+        margin-top: 10%;
+    }
+
+    .find .image2 img
+    {
+        min-height: 80vh;
+    }
    
 }
 
@@ -1207,6 +1282,17 @@ a{
     .pricing .btn2
     {
         padding-top: 8%;
+    }
+
+    .find .info p
+    {
+        font-size: 17px;
+        padding: 7% 15px 0 15px;
+    }
+
+    .find .image2 img 
+    {
+        min-height: 300px;
     }
 
    

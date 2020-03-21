@@ -873,61 +873,173 @@ a{
     margin-right: 5px;
 }
 
+.foam
+{
+    background-color: rgb(55, 57, 53);
+    padding: 5% 0;
+}
 
+.foam .contact:before
+{
+    position: absolute;
+    content: "";
+    bottom: 50%;
+    right: 25px;
+    transform: translateY(50%);
+    height: 90%;
+    width: 1px;
+    background: rgb(154, 154, 154);
+}
 
+.foam .contact ul
+{
+    list-style: none;
+}
 
+.foam .contact li
+{
+    padding-top: 10px;
+}
 
+.foam .contact li a 
+{
+    font-size: 16px;
+    color: rgb(190, 190, 190);
+}
 
+.foam .contact li a:hover
+{
+    color: rgb(87, 171, 255);
+    opacity: 0.5s;
+    transition: 0.5s;
+}
 
+.foam .shop::before
+{
+    position: absolute;
+    content: "";
+    bottom: 50%;
+    right: 35px;
+    transform: translateY(50%);
+    height: 90%;
+    width: 1px;
+    background: rgb(154, 154, 154);
+}
 
+.foam .shop ul
+{
+    list-style: none;
+}
+.foam .shop li
+{
+    padding-top: 10px;
+}
 
+.foam .shop li a
+{
+    font-size: 16px;
+    color: rgb(190, 190, 190);
+}
 
+.foam .shop li a:hover
+{
+    color: rgb(87, 171, 255);
+    opacity: 0.5s;
+    transition: 0.5s;
+}
 
+.foam .downld
+{
+    
+}
 
+.foam .downld h6
+{
+    color: white;
+    padding-top: 5%;
+    font-size: 17px;
+}
 
+.foam .downld .image3
+{
+    padding-top: 5%;
+}
 
+.foam .downld .image3 a img
+{
+    width: 35%;
+    height: 40px;
+    margin-right: 2%;
+}
 
+.foam .search
+{
+    padding-top: 10%;
+}
 
+.foam .search .searchterm
+{
+    width: 70%;
+    height: 35px;
+    border-radius: 2px;
+    border: 0px;
+    font-size: 15px;
+    padding-left: 4%;
+}
 
+.foam .search .input-btn
+{
 
+}
+.foam .search .input-btn a
+{
+    padding: 8px 10px;
+    background-color: rgb(87, 171, 255);
+    margin-left: -5px;
+    font-size: 16px;
+    color: white;
+    border-radius: 2px;
+    
+}
 
+.foam .search .input-btn a:hover
+{
+    background-color: rgb(74, 74, 255);
+    opacity: 0.5s;
 
+    transition: 0.5s;
+}
 
+.footer
+{
+    padding: 2% 0;
+    color: white;
+    background-color: rgb(55, 57, 53);
+}
 
+.seprator
+{
+    background-color: gray;
+    height: 2px;
+    width: 100%;
+}
+ 
+.footer .icon1
+{
+    
+}
 
+.footer .icon1 i
+{
+    font-size: 40px;
+    padding: 0 4px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer p
+{
+    float: right;
+    font-size: 16px;
+}
 
 
 
@@ -975,9 +1087,9 @@ a{
 
     .slider
     {
-        height: 90vh;
+        height: 100vh;
         background-position: left;
-        padding-top: 40%;
+        padding-top: 50%;
         background-blend-mode: soft-light;
         background-color: #a7a7a76e;
     }
@@ -1220,6 +1332,95 @@ a{
         width: 50%;
         height: 45px;
     }
+
+    .foam .contact
+    {
+        padding: 4% 0;
+    }
+
+    .foam .contact:before
+    {
+        position: absolute;
+        content: "";
+        background: rgb(154, 154, 154);
+        bottom: 2px;
+        right: 50%;
+        transform: translateX(50%);
+        height: 1px;
+        width: 90%;
+    }
+
+    .foam .shop
+    {
+        padding: 4% 0;
+    }
+
+    .foam .shop:before
+    {
+        position: absolute;
+        content: "";
+        background: rgb(154, 154, 154);
+        bottom: 2px;
+        right: 50%;
+        transform: translateX(50%);
+        height: 1px;
+        width: 90%;
+    }
+
+    .foam .downld
+    {
+        text-align: center;
+    }
+
+    .foam .downld h6
+    {
+        padding-top: 5%;
+    }
+
+    .foam .downld .image3 a img
+    {
+        width: 20%;
+        height: 45px;
+        margin-right: 1%;
+    }
+
+    .foam .search
+    {
+        padding-top: 5%;
+    }
+
+    .foam .search .searchterm
+    {
+        width: 50%;
+        height: 34px;
+
+    }
+
+    .foam .search .input-btn a
+    {
+        border-radius: 2px;
+        font-size: 15px;
+    }
+
+    .footer
+    {
+        padding: 3% 0;
+        text-align: center;
+    }
+
+    .footer .icon1 i
+    {
+        font-size: 35px;
+    }
+
+    .footer p
+    {
+        float: unset;
+        font-size: 15px;
+        padding-top: 2%;
+    }
+
+
    
 }
 
@@ -1243,7 +1444,7 @@ a{
     .slider
     {
         width: 100%;
-        height: 90vh;
+        height: 100vh;
         background-position: left;
         background-blend-mode: soft-light;
         background-color: #a7a7a76e;
@@ -1253,13 +1454,18 @@ a{
     .slider h1
     {
         font-size: 28px;
-        padding: 0 15%;
+        /* padding: 0 15%; */
+    }
+
+    .slider .btn1
+    {
+        margin-top: 10%;
     }
 
     .slider .btn1 a
     {
         font-size: 15px;
-        padding: 13px 30px 13px 30px;
+        padding: 10px 25px 10px 25px;
         box-shadow: 3px 2px 4px grey;
     }
 
@@ -1473,6 +1679,64 @@ a{
     {
         padding-top: 7%;
         float: unset;
+    }
+
+    .foam .downld
+    {
+        text-align: center;
+        padding-top: 5%;
+    }
+
+    .foam .downld .image3 a img
+    {
+        width: 30%;
+        height: 40px;
+    }
+
+    .foam .contact
+    {
+        padding: 3% 0;
+    }
+
+    .foam .contact:before
+    {
+        position: absolute;
+        content: "";
+        background: rgb(154, 154, 154);
+        bottom: 2px;
+        right: 50%;
+        transform: translateX(50%);
+        height: 1px;
+        width: 90%;
+    }
+
+    .foam .shop
+    {
+        padding: 3% 0;
+    }
+
+    .foam .shop:before
+    {
+        position: absolute;
+        content: "";
+        background: rgb(154, 154, 154);
+        bottom: 2px;
+        right: 50%;
+        transform: translateX(50%);
+        height: 1px;
+        width: 90%;
+    }
+
+    .foam .search
+    {
+        padding-top: 10%;
+    }
+
+    .foam .search .searchterm
+    {
+        width: 55%;
+        height: 34px;
+        font-size: 15px;
     }
 
    
